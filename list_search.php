@@ -1,0 +1,1 @@
+<form class="d-flex gap-2 mb-3" method="get"><input type="hidden" name="page" value="<?=e($page)?>"><input class="form-control" name="search" value="<?=e($search)?>" placeholder="Cari data..."><button class="btn btn-outline-primary">Cari</button><a class="btn btn-outline-secondary" href="index.php?page=<?=e($page)?>">Reset</a></form>
